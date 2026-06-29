@@ -1,0 +1,6 @@
+{
+  "name": "nSporty",
+  "description": "An online sports news website covering traditional sports and e-sports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
