@@ -10,7 +10,7 @@ async function startServer() {
 
   // Generate sitemap dynamically
   app.get("/sitemap.xml", (req, res) => {
-    const baseUrl = "https://auracore.biz";
+    const baseUrl = "https://nsporty.online";
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n`;
     sitemap += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
     
@@ -48,7 +48,7 @@ async function startServer() {
 
   // Robots.txt
   app.get("/robots.txt", (req, res) => {
-    const robots = `User-agent: *\nAllow: /\nSitemap: https://auracore.biz/sitemap.xml\n`;
+    const robots = `User-agent: *\nAllow: /\nSitemap: https://nsporty.online/sitemap.xml\n`;
     res.header('Content-Type', 'text/plain');
     res.send(robots);
   });

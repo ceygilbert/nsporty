@@ -132,7 +132,7 @@ const CategoryPage = () => {
       <Helmet>
         <title>{activeCategory} News | nSporty</title>
         <meta name="description" content={`Latest updates and news about ${activeCategory} on nSporty`} />
-        <link rel="canonical" href={`https://auracore.biz/category/${categoryId}`} />
+        <link rel="canonical" href={`https://nsporty.online/category/${categoryId}`} />
       </Helmet>
       <div className="mb-6">
         <motion.h2 
@@ -156,7 +156,7 @@ const HomePage = () => {
       <Helmet>
         <title>nSporty - Top Sports and Esports News</title>
         <meta name="description" content="Your daily source for traditional sports and esports news. Get the latest updates on football, basketball, and competitive gaming." />
-        <link rel="canonical" href="https://auracore.biz/" />
+        <link rel="canonical" href="https://nsporty.online/" />
       </Helmet>
       <div className="mb-6">
         <motion.h2 
@@ -208,7 +208,7 @@ const ArticlePage = () => {
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.summary} />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href={`https://auracore.biz/article/${article.slug}`} />
+        <link rel="canonical" href={`https://nsporty.online/article/${article.slug}`} />
       </Helmet>
 
       <Link 
